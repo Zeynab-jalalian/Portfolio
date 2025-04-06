@@ -42,4 +42,20 @@ ul{
     z-index: 10;
     background: var(--bg-black-100);
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside .logo{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.aside .logo a{
+    font-weight: 700;
+    color: var(--text-black-900);
+    padding: 15px 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
 }
