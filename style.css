@@ -287,3 +287,17 @@ h3.my-profession{
     flex: 0 0 100%;
     max-width: 100%;
 }
+.about .about-content .about-text{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: var(--text-black-900);
+    font-weight: 700;
+}
+.about-text h3 span{
+    color: var(--skin-color);
+}
+.about-text p{
+    line-height: 25px;
+    font-size: 16px;
+   color: var(--text-black-700);
+}
