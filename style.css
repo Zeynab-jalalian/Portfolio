@@ -108,3 +108,44 @@ ul{
 .aside .nav li a.active{
  color: var(--skin-color);
 }
+.aside .nav-toggler{
+    background: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    width: 45px;
+    height: 40px;
+    position: fixed;
+    top: 20px;
+    left: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.aside .nav-toggler span{
+    height: 2px;
+    width: 18px;
+    background: var(--skin-color);
+    display: inline-block;
+    position: relative;
+}
+.aside .nav-toggler span::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 18px;
+    background: var(--skin-color);
+    display: inline-block;
+    top: -6px;
+    left: 0;
+}
+.aside .nav-toggler span::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 18px;
+    background: var(--skin-color);
+    display: inline-block;
+    top: 6px;
+    left: 0;
+}
