@@ -306,6 +306,23 @@ h3.my-profession{
     max-width: 60%;
     margin-top: 40px;
 }
+.personal-info .info-item{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.info-item p{
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-black-900);
+    border-bottom: 1px solid var(--bg-black-50);
+}
+.info-item p span{
+    color: var(--text-black-700);
+    font-weight: 400;
+    margin-left: 4px;
+    display: inline-block;
+}
 .about .about-content .skills{
     flex: 0 0 40%;
     max-width: 40%;
