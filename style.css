@@ -47,6 +47,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-right: 1px solid var(--bg-black-50);
 }
 .aside .logo{
     position: absolute;
@@ -85,4 +86,25 @@ ul{
     height: 20px;
     border-top: 5px solid var(--skin-color);
     border-right: 5px solid var(--skin-color);
+}
+.aside .nav{
+    margin-top: 50px;
+}
+.aside .nav li{
+    margin-bottom: 20px;
+    display: block;
+}
+.aside .nav li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-black-900);
+    border-bottom: 1px solid var(--bg-black-50);
+    padding: 5px 15px;
+    display: block;
+}
+.aside .nav li a i{
+    margin-right: 15px;
+}
+.aside .nav li a.active{
+ color: var(--skin-color);
 }
