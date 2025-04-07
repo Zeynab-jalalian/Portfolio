@@ -149,3 +149,7 @@ ul{
     top: 6px;
     left: 0;
 }
+/* home */
+.home .home-img img{
+    height: 400px;
+}
