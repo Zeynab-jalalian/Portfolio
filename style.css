@@ -323,6 +323,13 @@ h3.my-profession{
     margin-left: 4px;
     display: inline-block;
 }
+.buttons{
+    margin-top: 30px;
+}
+.buttons a{
+    margin-right: 15px;
+    margin-top: 10px;
+}
 .about .about-content .skills{
     flex: 0 0 40%;
     max-width: 40%;
