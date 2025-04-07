@@ -304,8 +304,10 @@ h3.my-profession{
 .about .about-content .personal-info{
     flex: 0 0 60%;
     max-width: 60%;
+    margin-top: 40px;
 }
 .about .about-content .skills{
     flex: 0 0 40%;
     max-width: 40%;
+    margin-top: 40px;
 }
