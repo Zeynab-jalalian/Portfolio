@@ -26,14 +26,13 @@ ul{
 }
 .section{
     background: var(--bg-black-900);
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 270px;
     min-height: 100vh;
     display: block;
     opacity: 1;
     padding: 0 30px;
+}
+.main-content{
+    padding-left: 270px;
 }
 .padd-15{
     padding-right: 15px;
@@ -201,6 +200,8 @@ ul{
 .home .home-img img{
     height: 400px;
     width: 300px;
+    border-radius: 5px;
+    margin: auto;
 }
 .home .home-info h3.hello{
    margin: 15px 0;
