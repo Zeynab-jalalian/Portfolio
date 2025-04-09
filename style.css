@@ -498,3 +498,12 @@ h3.my-profession{
     color: var(--text-black-700);
     line-height: 25px;
 }
+/*portfolio*/
+.portfolio .portfolio-heading{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.portfolio-heading h2{
+    color: var(--text-black-900);
+    font-weight: 500;
+}
