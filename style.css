@@ -438,3 +438,9 @@ h3.my-profession{
     margin-bottom: 15px;
     text-transform: capitalize;
 }
+.timeline-item .timeline-text{
+    font-size: 16px;
+  line-height: 25px;
+    text-align: justify;
+    color: var(--text-black-700);
+}
