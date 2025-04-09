@@ -396,3 +396,29 @@ h3.my-profession{
     border-radius: 10px;
     position: relative;
 }
+.timeline-item{
+    padding-left: 37px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.timeline-item:last-child{
+    padding-bottom: 0;
+}
+.timeline-item::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 7px;
+    background: var(--skin-color);
+    width: 1px;
+    height: 100%;
+}
+.circle-dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--skin-color);
+}
