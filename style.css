@@ -445,6 +445,9 @@ h3.my-profession{
     color: var(--text-black-700);
 }
 /* services */
+.service .container{
+    padding-bottom: 40px;
+}
 .service .service-item{
     margin-bottom: 30px;
     flex: 0 0 33.33%;
