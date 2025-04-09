@@ -103,6 +103,9 @@ ul{
 .btn:hover{
     transform: scale(1.05);
 }
+.dark-shadow{
+    box-shadow: 0 0 10px rgba(48,46,77,0.15);
+}
 /*aside*/
 .aside{
     position: fixed;
@@ -380,4 +383,16 @@ h3.my-profession{
     font-size: 24px;
     font-weight: 700;
     color: var(--text-black-900);
+}
+.about .about-content .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.timeline-box .timeline{
+    background: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    width: 100%;
+    padding: 30px 15px;
+    border-radius: 10px;
+    position: relative;
 }
