@@ -527,3 +527,15 @@ width: 100%;
 height: 300px;
 display: block;
 }
+/*contact*/
+.contact-title{
+    text-align: center;
+    color: var(--skin-color);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contact-sub-title{
+    text-align: center;
+    color: var(--text-black-900);
+    font-size: 15px;
+}
