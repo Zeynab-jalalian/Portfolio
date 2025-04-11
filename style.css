@@ -538,4 +538,5 @@ display: block;
     text-align: center;
     color: var(--text-black-900);
     font-size: 15px;
+    margin-bottom: 60px;
 }
